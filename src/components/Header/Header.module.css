@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--black01);
+    padding: 20px;
+    z-index: 1;
+}
+
+.search {
+    width: 100%;
+}
+
+.select {
+    width: 100%;
+}

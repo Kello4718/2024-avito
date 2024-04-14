@@ -1,0 +1,26 @@
+:root {
+--white00: #ffffff;
+--white01: #f4f4f4;
+--black01: #141414;
+}
+
+* {
+    box-sizing: border-box !important;
+}
+
+html, body, #app {
+    width: 100%;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    background: var(--white01);
+}
+
+@media (max-width: 1280px) {
+    .ant-image {
+        width: 100% !important;
+    }
+}
